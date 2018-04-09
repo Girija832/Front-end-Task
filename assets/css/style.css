@@ -1,0 +1,255 @@
+body {
+    background-color: #ccc;
+}
+.home {
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+}
+.affix {
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    background: grey;
+}
+.content-para {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+.content-para p {
+    width: 50%;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.content-para a {
+    color: #dad9d9;
+}
+.content-para li a:hover {
+    background-color: transparent !important;
+    color: #ccc;
+    border-bottom: 3px solid #47ebc9;
+}
+.padding-lr-zero {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.bd-content {
+    background: #fff;
+    padding: 40px 30px;
+    min-height: 372px;
+}
+.bd-content a {
+    color: #47ebc9;
+}
+.bd-content a:hover {
+    text-decoration: none;
+}
+.left-arrow:before {
+    content: "\A";
+    border-style: solid;
+    border-width: 8px 10px 8px 0;
+    border-color: transparent #ffffff transparent transparent;
+    position: absolute;
+    left: -10px;
+    top: 35px;
+    transform: rotate(0deg);
+}
+.right-arrow:before {
+    content: "\A";
+    border-style: solid;
+    border-width: 8px 10px 8px 0;
+    border-color: transparent #ffffff transparent transparent;
+    position: absolute;
+    right: -10px;
+    bottom: 35px;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+.testimonial {
+    background-image: url(../images/testimonial.jpg);
+    background-size: cover;
+    padding: 60px 0;
+}
+.testimonial-content {
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: #c8c8c8;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.carousel-indicators {
+    bottom: -40px !important;
+    z-index: 0;
+}
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+}
+.more-btn {
+    margin-top: 50px;
+}
+.more-btn a {
+    background: #1eba9a;
+    padding: 8px 20px;
+    border-radius: 2px;
+    color: #000;
+}
+.more-btn a:hover {
+    text-decoration: none;
+}
+.pb-40 {
+    padding-bottom: 40px;
+}
+.owl-prev {
+    position: absolute;
+    left: -45px;
+    bottom: 80px;
+    background: transparent;
+}
+.owl-next {
+    position: absolute;
+    right: -45px;
+    bottom: 80px;
+    background: transparent;
+}
+.owl-prev img, .owl-next img {
+    max-width: 15px;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    background: transparent;
+    opacity: 1;
+}
+.item-list {
+    padding: 50px 0;
+    background: #fff;
+}
+.sc p {
+    padding-bottom: 15px;
+}
+.sc a {
+    background: #47ebc9;
+    padding: 8px 20px;
+    border-radius: 2px;
+    color: #000;
+    display: inline-block;
+}
+.sc a:hover {
+    text-decoration: none;
+}
+.sc img {
+    max-width: 200px;
+    height: 120px;
+}
+.f-style1 {
+    background: url('../images/style1.jpg');
+    background-size: cover;
+    padding: 50px 0;
+}
+.f-style2 {
+    background: url('../images/style2.jpg');
+    background-size: cover;
+    padding: 50px 0;
+}
+.style-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    padding: 0 80px;
+}
+.style-content a {
+    margin: 0 auto;
+    background: #47ebc9;
+    padding: 8px 20px;
+    color: #000;
+}
+.c-bg1 {
+    background: url(../images/a1.jpg);
+    background-size: cover;
+    padding-bottom: 60px;
+}
+.c-bg2 {
+    background: url(../images/a2.jpg);
+    background-size: cover;
+    padding-bottom: 60px;
+}
+.c-content {
+    color: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+.c-content a {
+    margin: 0 auto;
+    background: #47ebc9;
+    padding: 8px 20px;
+    color: #000;
+}
+.c-content a:hover {
+    text-decoration: none;
+}
+.team {
+    padding: 50px 0;
+    background-color: #fff;
+}
+.team-member img {
+    max-width: 100px;
+    border-radius: 50%;
+    border: 1px solid #333333;
+}
+.team-member .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #333;
+}
+.team-para a {
+    margin: 0 auto;
+    background: #47ebc9;
+    padding: 8px 20px;
+    color: #000;
+}
+.team-para a:hover {
+    text-decoration: none;
+}
+.contact-bg {
+    background: #47ebc9;
+    padding: 100px;
+}
+.cont-address a {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .content-para {
+        height: auto;
+    }
+    .content-para p {
+        width: auto;
+        line-height: 20px;
+        padding-bottom: 20PX;
+    }
+    .testimonial-content {
+        display: block;
+        width: auto;
+        padding: 10px;
+    }
+    .style-content {
+        display: block;
+        padding: 0;
+    }
+}
